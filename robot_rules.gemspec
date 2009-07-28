@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{robot_rules}
-  s.version = "0.9.0"
+  s.version = "0.9.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Edward Gray II", "Jeremy Friesen"]
@@ -10,15 +10,17 @@ Gem::Specification.new do |s|
   s.email = %q{jeremy.n.friesen@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+     "README.markdown"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
-     "README.rdoc",
+     "README.markdown",
      "Rakefile",
+     "VERSION.yml",
      "lib/robot_rules.rb",
+     "robot_rules.gemspec",
      "test/robot_rules_test.rb",
      "test/test_helper.rb"
   ]
