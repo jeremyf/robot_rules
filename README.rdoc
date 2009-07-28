@@ -1,7 +1,14 @@
 = robot_rules
 
-Description goes here.
+A tool to determine if the robots.txt would prevent a given user agent 
+from making a request to a given URI.
+
+= history
+
+RobotRules was created by James Edward Gray II as a response to "Port a 
+Library" Ruby Quiz #64.  A few years later, Jeremy Friesen wrapped the 
+library up into a gem and added some tests.
 
 == Copyright
 
-Copyright (c) 2009 Jeremy Friesen. See LICENSE for details.
+Copyright (c) 2009 James Edward Gray II and Jeremy Friesen. See LICENSE for details.
